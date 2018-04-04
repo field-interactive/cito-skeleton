@@ -30,9 +30,9 @@
     },
     "scripts": {
         "cito-scripts": [
-            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::addToConfigFiles",
-            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installSkeletonFiles"
+            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installRequiredFiles",
+            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installConfiguration",
+            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installJavascriptFiles"
         ],
         "post-install-cmd": [
             "@cito-scripts"
