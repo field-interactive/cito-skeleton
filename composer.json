@@ -10,7 +10,7 @@
         "symfony/twig-bundle": "^4.0",
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
-        "liip/imagine-bundle": "^2@dev",
+        "liip/imagine-bundle": "^2.0",
         "field-interactive/cito-bundle": "dev-master"
     },
     "require-dev": {
