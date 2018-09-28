@@ -11,7 +11,7 @@
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
         "liip/imagine-bundle": "^2.0",
-        "field-interactive/cito-bundle": "^1.0"
+        "field-interactive/cito-bundle": "^1.2"
     },
     "require-dev": {
         "symfony/dotenv": "^4.0",
@@ -30,14 +30,11 @@
     },
     "scripts": {
         "cito-scripts": [
-            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::updateTemplateFiles",
+            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installTemplateFiles",
             "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installConfiguration",
             "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installJavascriptFiles"
         ],
         "post-install-cmd": [
-            "@cito-scripts"
-        ],
-        "post-update-cmd": [
             "@cito-scripts"
         ]
     }
