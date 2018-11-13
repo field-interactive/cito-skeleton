@@ -38,6 +38,7 @@
             "@cito-scripts"
         ],
         "post-update-cmd": [
+            "@cito-scripts",
             "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::updateCito"
         ]
     }
