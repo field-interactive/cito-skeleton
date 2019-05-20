@@ -9,9 +9,8 @@
         "symfony/flex": "^1.2",
         "symfony/twig-bundle": "^4.2",
         "symfony/framework-bundle": "^4.2",
-        "symfony/lts": "^4@dev",
         "liip/imagine-bundle": "^2.0",
-        "field-interactive/cito-bundle": "^1.3"
+        "field-interactive/cito-bundle": "^1.4"
     },
     "require-dev": {
         "symfony/dotenv": "^4.2",
