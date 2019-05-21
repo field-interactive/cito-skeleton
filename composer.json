@@ -33,6 +33,9 @@
             "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installConfiguration",
             "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::installJavascriptFiles"
         ],
+        "post-create-project-cmd": [
+            "FieldInteractive\\CitoBundle\\Composer\\ScriptHandler::postCreateProject"
+        ],
         "post-install-cmd": [
             "@cito-scripts"
         ],
