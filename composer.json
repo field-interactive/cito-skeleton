@@ -5,10 +5,10 @@
     "require": {
         "php": "^7.2",
         "ext-iconv": "*",
-        "symfony/console": "^4.2",
-        "symfony/flex": "^1.2",
-        "symfony/twig-bundle": "^4.2",
-        "symfony/framework-bundle": "^4.2",
+        "symfony/console": "^4.4",
+        "symfony/flex": "^1.4",
+        "symfony/twig-bundle": "^4.4",
+        "symfony/framework-bundle": "^4.4",
         "liip/imagine-bundle": "^2.0",
         "field-interactive/cito-bundle": "^1.4"
     },
